@@ -61,6 +61,22 @@ Posts were also compared by media presence, content category and moderation leve
 
 <img src="outputs/categorical_analysis.png" alt="Post Count by Media Presence, Category and Moderation Level" width="700">
 
+## Performance & Reliability
+
+The analytics pipeline includes lightweight execution-time monitoring to support performance evaluation and reproducibility.
+
+Runtime measurements are recorded for key processing stages, including:
+
+- Data loading
+- Data cleaning
+- Data transformation
+- JSON backup generation
+- Overall pipeline execution
+
+Prepared datasets are cached during an application session to avoid unnecessary repeated loading, cleaning and merging operations.
+
+This provides a foundation for evaluating latency and throughput as dataset size increases. For larger-scale or edge-case workloads, further benchmarking could measure records processed per second, memory usage and performance under increasing data volumes.
+
 ## Technologies & Skills
 
 - Python
