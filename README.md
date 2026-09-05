@@ -33,6 +33,40 @@ The project demonstrates an end-to-end Python workflow from raw data processing 
 - Audit logging
 - Modular Python implementation
 
+## Data Transformation
+
+The analytics pipeline transforms raw social media data into structured, analysis-ready datasets using Pandas.
+
+### Before Transformation
+
+The source data contains fields describing posts, users, topics, moderation settings and reporting activity. Raw records require cleaning and integration before they can be used reliably for analysis.
+
+Example structure:
+
+| post_id | user_id | topic_id | category | has_media | moderation_level | reported |
+|---|---|---|---|---|---|---|
+| P001 | U001 | T003 | education | True | medium | 0 |
+
+### After Transformation
+
+The processing pipeline cleans and combines relevant datasets, validates fields and derives structures required for statistical analysis and visualisation.
+
+Example analysis-ready structure:
+
+| topic_id | category | has_media | moderation_level | post_count | report_rate |
+|---|---|---|---|---:|---:|
+| T003 | education | True | medium | 156 | 0.19 |
+
+Key transformation steps include:
+
+- Loading structured source datasets
+- Cleaning and validating records
+- Combining related datasets
+- Converting fields into appropriate data types
+- Aggregating posting and reporting activity
+- Creating analysis-ready variables for statistical analysis
+- Preparing processed records for JSON persistence
+
 ## Analysis Results
 
 The analytics pipeline generates several visualisations to explore posting behaviour, moderation patterns and user reporting activity.
