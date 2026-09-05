@@ -184,6 +184,21 @@ python src/main.py
 
 Generated visualisations are saved to the `outputs/` folder.
 
+## Responsible Moderation Analytics
+
+Social media moderation data can reflect subjective user behaviour, cultural context and reporting bias. For this reason, analytical outputs should not be treated as objective measures of harmful content.
+
+Key considerations include:
+
+- Potential bias in user-generated reports
+- Differences in reporting behaviour across topics and communities
+- Transparency in how analytical outputs are produced
+- Audit logging to support traceability
+- Human oversight for sensitive moderation decisions
+- Avoiding fully automated decisions based on a single metric
+
+The weak relationship observed between moderation level and reporting behaviour in this dataset also highlights the importance of considering multiple contextual factors rather than relying only on report counts.
+
 ## Disclaimer
 
 This repository is a portfolio project demonstrating Python programming, data analytics and software development concepts using a social media moderation scenario.
