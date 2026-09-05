@@ -40,6 +40,14 @@ The project is organised into two main Python components:
 - `src/main.py` — handles data loading, preprocessing, transformation, statistical analysis and visualisation.
 - `src/gui.py` — provides the Tkinter-based interactive interface for exploring moderation analytics and triggering user interactions.
 
+## Interactive Dashboard
+
+The project includes a Tkinter-based dashboard for running the moderation analytics workflow interactively.
+
+The interface supports data preparation, metric selection, statistical analysis, visualisation generation and a complete end-to-end workflow. The audit log records processing steps and results to support traceability.
+
+<img src="outputs/moderation_dashboard.png" alt="Social Media Moderation Analytics Dashboard" width="800">
+
 ## Data Transformation
 
 The analytics pipeline transforms raw social media data into structured, analysis-ready datasets using Pandas.
