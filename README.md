@@ -221,6 +221,7 @@ social-media-moderation-analytics/
 ├── outputs/
 │   ├── README.md
 │   ├── categorical_analysis.png
+│   ├── moderation_dashboard.png
 │   ├── posting_pivot.png
 │   ├── report_correlation.png
 │   └── report_heatmap.png
