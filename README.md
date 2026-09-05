@@ -199,6 +199,23 @@ Key considerations include:
 
 The weak relationship observed between moderation level and reporting behaviour in this dataset also highlights the importance of considering multiple contextual factors rather than relying only on report counts.
 
+## Project Structure
+
+```text
+social-media-moderation-analytics/
+├── outputs/
+│   ├── posting_activity_by_hour_topic.png
+│   ├── report_rate_by_moderation_level.png
+│   ├── report_counts_by_topic_moderation.png
+│   └── post_count_media_category_moderation.png
+├── src/
+│   ├── README.md
+│   ├── gui.py
+│   └── main.py
+├── README.md
+└── requirements.txt
+```
+
 ## Disclaimer
 
 This repository is a portfolio project demonstrating Python programming, data analytics and software development concepts using a social media moderation scenario.
