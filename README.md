@@ -152,6 +152,38 @@ Tkinter was selected for this prototype because it provides a lightweight deskto
 - Audit Logging
 - Responsible Data Analytics
 
+## How to Run
+
+Install the required Python packages:
+
+```bash
+pip install -r requirements.txt
+```
+
+Place the required source datasets in a `raw_data/` folder at the project root:
+
+```text
+raw_data/
+├── USERS.csv
+├── POSTS.csv
+├── INTERACTIONS.csv
+└── TOPICS.csv
+```
+
+Run the interactive dashboard:
+
+```bash
+python src/gui.py
+```
+
+Or run the analytics pipeline directly:
+
+```bash
+python src/main.py
+```
+
+Generated visualisations are saved to the `outputs/` folder.
+
 ## Disclaimer
 
 This repository is a portfolio project demonstrating Python programming, data analytics and software development concepts using a social media moderation scenario.
