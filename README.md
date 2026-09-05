@@ -204,10 +204,11 @@ The weak relationship observed between moderation level and reporting behaviour 
 ```text
 social-media-moderation-analytics/
 ├── outputs/
-│   ├── posting_activity_by_hour_topic.png
-│   ├── report_rate_by_moderation_level.png
-│   ├── report_counts_by_topic_moderation.png
-│   └── post_count_media_category_moderation.png
+│   ├── README.md
+│   ├── categorical_analysis.png
+│   ├── posting_pivot.png
+│   ├── report_correlation.png
+│   └── report_heatmap.png
 ├── src/
 │   ├── README.md
 │   ├── gui.py
