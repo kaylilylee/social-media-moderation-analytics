@@ -33,6 +33,13 @@ The project demonstrates an end-to-end Python workflow from raw data processing 
 - Audit logging
 - Modular Python implementation
 
+## Source Code
+
+The project is organised into two main Python components:
+
+- `src/main.py` — handles data loading, preprocessing, transformation, statistical analysis and visualisation.
+- `src/gui.py` — provides the Tkinter-based interactive interface for exploring moderation analytics and triggering user interactions.
+
 ## Data Transformation
 
 The analytics pipeline transforms raw social media data into structured, analysis-ready datasets using Pandas.
