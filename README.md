@@ -33,6 +33,34 @@ The project demonstrates an end-to-end Python workflow from raw data processing 
 - Audit logging
 - Modular Python implementation
 
+## Analysis Results
+
+The analytics pipeline generates several visualisations to explore posting behaviour, moderation patterns and user reporting activity.
+
+### Posting Activity by Hour and Topic
+
+This heatmap shows how posting activity varies across topics throughout the day.
+
+<img src="outputs/posting_pivot.png" alt="Posting Activity by Hour and Topic" width="700">
+
+### Report Rate by Moderation Level
+
+Report rates were compared across low, medium and high moderation levels. The observed correlation was approximately **-0.15**, indicating only a weak negative relationship in this dataset.
+
+<img src="outputs/report_correlation.png" alt="Report Rate by Moderation Level" width="600">
+
+### Report Counts by Topic and Moderation Level
+
+This heatmap highlights differences in report volumes across topics and moderation levels.
+
+<img src="outputs/report_heatmap.png" alt="Report Counts by Topic and Moderation Level" width="600">
+
+### Media Presence, Category and Moderation Level
+
+Posts were also compared by media presence, content category and moderation level.
+
+<img src="outputs/categorical_analysis.png" alt="Post Count by Media Presence, Category and Moderation Level" width="700">
+
 ## Technologies & Skills
 
 - Python
