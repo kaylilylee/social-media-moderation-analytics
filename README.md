@@ -77,6 +77,30 @@ Prepared datasets are cached during an application session to avoid unnecessary 
 
 This provides a foundation for evaluating latency and throughput as dataset size increases. For larger-scale or edge-case workloads, further benchmarking could measure records processed per second, memory usage and performance under increasing data volumes.
 
+## GUI Design
+
+The Tkinter dashboard uses a task-oriented layout that groups controls by workflow stage.
+
+### Interaction Design
+
+The interface supports three primary interaction patterns:
+
+- **Data preparation** — load, clean and transform datasets through clearly grouped controls.
+- **Analysis** — select an engagement metric and run statistical or visual analysis.
+- **Full workflow execution** — run the complete moderation analytics pipeline and review audit-log feedback.
+
+The design follows several usability principles, including consistency, clear system feedback and recognition rather than recall. Predefined controls and metric selections reduce manual input and help users follow the analysis workflow.
+
+The audit log provides immediate feedback on system actions, processing results and errors, improving transparency during execution.
+
+### Alternative Interfaces
+
+A command-line interface could offer greater flexibility for technical users but would provide less visual guidance.
+
+A web dashboard could support richer visualisation and remote access, but would introduce additional deployment and architectural complexity.
+
+Tkinter was selected for this prototype because it provides a lightweight desktop interface while keeping the analytical workflow easy to run locally.
+
 ## Technologies & Skills
 
 - Python
